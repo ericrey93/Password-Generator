@@ -26,6 +26,21 @@
         </div>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
+          <form>
+            <label>Number of Characters:</label>
+            <div>
+              <input type="number" min="8" max="128" id="userNumber" value="16">
+            </div>
+            
+            <label for="uppercase">Include uppercase letters:</label>
+            <input type="checkbox" id="uppercase" name="uppercase" value="uppercase">
+            <br>
+            <label for="numbers">Include numbers:</label>
+            <input type="checkbox" id="numbers" name="numbers" value="numbers">
+            <br>
+            <label for="special">Include special characters:</label>
+            <input type="checkbox" id="special" name="special" value="special">
+          </form>
         </div>
       </div>
     </div>
